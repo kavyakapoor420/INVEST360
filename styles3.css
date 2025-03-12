@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f7;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+canvas {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.insights {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 4px;
+  text-align: left;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.insights p {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.highlight {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.low-investment {
+  color: #0275d8;
+  font-weight: bold;
+}
+
+.recommendation {
+  background: #fcf8e3;
+  padding: 10px;
+  border-left: 4px solid #f0ad4e;
+  margin: 10px 0;
+  border-radius: 4px;
+}
